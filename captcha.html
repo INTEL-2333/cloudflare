@@ -77,7 +77,7 @@
             "color: white;!important;" +
             "}</style>");
     }else {
-        if (window.matchMedia('(prefers-color-scheme: dark)')) {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.write("<style>body{\n" +
                 "    background-color: rgba(0, 0, 0, 0.842);!important;\n" +
                 "    color: white!important;\n" +
